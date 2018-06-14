@@ -6,12 +6,12 @@ var max = parseInt(prompt("please enter a second random number:"));
 console.log(min, max);
 
 function randomiser(min, max) {
-    
+
    return Math.floor( Math.random() * (max - min) + min);
-  
+
 }
 
-var randNum = randomiser(min, max); 
+var randNum = randomiser(min, max);
 
 console.log(randNum);
 
