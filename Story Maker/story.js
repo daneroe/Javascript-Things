@@ -15,7 +15,8 @@ questions -= 1;
 
 alert("all done!, read your story below.");
 
-var story = "The " + noun + " was acting " + adjective + " and went for a " + verb +".";
+var story =
+  "The " + noun + " was acting " + adjective + " and went for a " + verb +".";
 
 console.log(noun, adjective, verb);
 
